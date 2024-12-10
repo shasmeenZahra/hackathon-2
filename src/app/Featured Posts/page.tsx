@@ -42,12 +42,12 @@ const Page = () => {
               </div>
               {/* Title */}
               <h2 className="text-lg font-bold text-gray-800">
-                Loudest à la Madison #1 <br />(L'integral)
+                Loudest à la Madison #1 <br />(L&#39;integral)
               </h2>
               {/* Description */}
               <p className="text-gray-600 text-sm mt-3 mb-3">
                 We focus on ergonomics and meeting
-                <br /> you where you work. It's only a<br /> keystroke away.
+                <br /> you where you work. It&#39;s only a<br /> keystroke away.
               </p>
               {/* Footer Section */}
               <div className="flex justify-between items-center text-gray-400 mt-4">
