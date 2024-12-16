@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -33,31 +32,31 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <nav
-  className={`${
-    isOpen ? "block" : "hidden"
-  } absolute top-16 bg-white shadow-lg lg:flex lg:static lg:space-x-6 lg:bg-transparent lg:shadow-none`}
->
-  <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    Home
-  </a>
-  <a href="/About" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    Shop
-  </a>
-  <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    About
-  </a>
-  <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    Blog
-  </a>
-  <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    Contact
-  </a>
-  <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
-    Pages
-  </a>
-</nav>
-</div>
-</div>
+              className={`${
+                isOpen ? "block" : "hidden"
+              } absolute top-16 bg-white shadow-lg lg:flex lg:static lg:space-x-6 lg:bg-transparent lg:shadow-none`}
+            >
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                Home
+              </a>
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                Shop
+              </a>
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                About
+              </a>
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                Blog
+              </a>
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                Contact
+              </a>
+              <a href="#" className="block px-4 py-4 text-[#000000] hover:text-gray-500">
+                Pages
+              </a>
+            </nav>
+          </div>
+        </div>
 
         {/* Right Section: Login/Register and Icons */}
         <div className="flex items-center gap-6 lg:mr-0 text-[#0000FF]">
@@ -70,12 +69,15 @@ const Navbar = () => {
           </a>
 
           {/* Search Icon */}
-          <AiOutlineSearch className="text-xl cursor-pointer" />
-
+          <div className="text-xl cursor-pointer" >
+           <AiOutlineSearch/>
+            </div>
           {/* Cart Icon with Count */}
           <div className="relative">
              
-            <AiOutlineShoppingCart className=" cursor-pointer" />
+          <div className=" cursor-pointer">  
+            <AiOutlineShoppingCart/>
+          </div> 
             <span className="absolute -top-1 -right-3 bg-[#0000FF] text-white text-xs rounded-full px-1">
             </span>
            
@@ -83,7 +85,10 @@ const Navbar = () => {
 
           {/* Heart Icon with Count */}
           <div className="relative">
-            <AiOutlineHeart className=" cursor-pointer" />
+            <div className=" cursor-pointer">
+              <AiOutlineHeart/>
+            </div>
+             
             <span className="absolute -top-1 -right-3 bg-[#0000FF] text-white text-xs rounded-full px-1">
               
             </span>

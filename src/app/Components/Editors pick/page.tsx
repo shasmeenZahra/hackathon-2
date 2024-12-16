@@ -15,10 +15,12 @@ const page = () => {
       </div>
 
   
-      <div className="min-h-[500px] w-[1050px] mt-6 grid-cols-1 lg:grid-cols-4 lg:gap-6 lg:items-center text-center justify-center max-w-full">
-     
-        <div className="flex justify-center items-center min-h-auto max-w-full gap-6 mb-4 border flex-col lg:flex-row ">
+      <div className="min-h-[500px] max-w-[1050px] mt-6 grid-cols-1 lg:grid-cols-4 
+                       lg:gap-6 lg:items-center text-center justify-center ">
+        <div className="flex justify-center items-center min-h-auto
+                         max-w-full gap-6 mb-4 border flex-col lg:flex-row ">
           {/* First Image */}
+        
           <div>
             <Image
               src="/images/pic1.png"
@@ -28,7 +30,7 @@ const page = () => {
             />
           </div>
           {/* Second Image */}
-          <div>
+          <div className="flex h-[500px] w-[240px]">
             <Image
               src="/images/pic2.png"
               alt="pic2"
@@ -58,7 +60,7 @@ const page = () => {
               height={242}
             />
           </div>
-
+        
         </div>
        </div>
       </div>

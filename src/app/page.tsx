@@ -3,15 +3,17 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import HeroSec from './Components/HeroSec'
 import Footer from './Components/Footer'
-import Editors from './Editors pick/page'
-import Featured from './Featured products/page'
-import Cart from './Cart/page'
-import Univers from './univers/page'
-import Posts from './Featured Posts/page'
+import Editors from './Components/Editors pick/page'
+import Featured from './Components/Featured products/page'
+import Cart from './Components/Cart/page'
+import Univers from './Components/univers/page'
+import Posts from './Components/Featured Posts/page'
+
 
 const page = () => {
   return (
-    <>
+     <>
+    
       <Header/>
         <Hero/>
         <HeroSec/>
