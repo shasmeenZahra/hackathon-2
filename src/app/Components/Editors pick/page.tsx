@@ -7,7 +7,7 @@ const page = () => {
     
       <div className="text-center">
       
-        <h1 className="font-bold text-lg text-black">EDITOR'S PICK</h1>
+        <h1 className="font-bold text-lg text-black">EDITOR&apos;sS PICK</h1>
         
         <p className="text-black mt-2">
           Problems trying to resolve the conflict between
