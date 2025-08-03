@@ -42,7 +42,7 @@ const Page = () => {
               </div>
               {/* Title */}
               <h2 className="text-lg font-bold text-gray-800">
-                Loudest à la Madison #1 <br />(L'integral)
+                Loudest à la Madison #1 <br />(L&apos;integral)
               </h2>
               {/* Description */}
               <p className="text-gray-600 text-sm mt-3 mb-3">
