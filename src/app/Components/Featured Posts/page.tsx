@@ -47,7 +47,7 @@ const Page = () => {
               {/* Description */}
               <p className="text-gray-600 text-sm mt-3 mb-3">
                 We focus on ergonomics and meeting
-                <br /> you where you work. It&apos;s only a<br /> keystroke away.
+                <br /> you where you work. Its only a<br /> keystroke away.
               </p>
               {/* Footer Section */}
               <div className="flex justify-between items-center text-gray-400 mt-4">
